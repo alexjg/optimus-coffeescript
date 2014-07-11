@@ -11,6 +11,6 @@ Then in whichever file you are loading assets
 
     (:require [optimus-coffeescript.core])
 
-Once this is done any coffeescript files references in a bundle while be compiled. The coffeescript compiler is bundled with this plugin so coffeescript does not need to be installed locally.
+Once this is done any coffeescript files referenced in a bundle will be compiled. The coffeescript compiler is bundled with this plugin so coffeescript does not need to be installed locally.
 
 
