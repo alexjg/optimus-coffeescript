@@ -1,4 +1,4 @@
-(defproject optimus-coffeescript "0.1.0-SNAPSHOT"
+(defproject optimus-coffeescript "0.1.0"
   :description "A coffeescript compiler for optimus"
   :url "http://example.com/FIXM://github.com/alexjg/optimus-coffeescript"
   :license {:name "Eclipse Public License"
