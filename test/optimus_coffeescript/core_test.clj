@@ -15,5 +15,7 @@
                 (creation/last-modified anything) => 3000))
         (fact "should set the original path attribute"
               (let [result-asset (creation/load-asset "test" "/test.coffee")]
-                (:original-path result-asset) => "/test.coffee")))
-
+                ;(:original-path (creation/load-asset "test" "/test.coffee")) => "/test.coffee")
+                (:original-path result-asset) => "/test.coffee"))
+        (fact "should throw an informative error message on failure"
+              (creation/load-asset "test" "/badsource.coffee") => (throws Exception #"/badsource\.coffee:3:1")))
